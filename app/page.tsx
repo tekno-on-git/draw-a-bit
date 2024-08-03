@@ -44,8 +44,7 @@ export default function Home() {
           <button
             type="button"
             className={` bg-white rounded-md p-2 mb-2 ${
-              !darkMode &&
-              " bg-gray-700 text-white border border-black rounded-md"
+              !darkMode && " bg-gray-700  border border-black rounded-md"
             }`}
             onClick={() => {
               setDarkMode(!darkMode);
